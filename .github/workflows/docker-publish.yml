@@ -24,9 +24,9 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t vamshivicky/django-ecommerce:latest .
+          docker build -t vamshivicky/django-ecommerce: latest .
       
       - name: Push Docker Image to Docker Hub
         run: |
-          docker push vamshivicky/django-ecommerce:latest
+          docker push vamshivicky/django-ecommerce: latest
 
